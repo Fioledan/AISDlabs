@@ -3,7 +3,7 @@ import re
 DIGITS = {'0': 'ноль', '1': 'один', '2': 'два', '3': 'три', '4': 'четыре',
           '5': 'пять', '6': 'шесть', '7': 'семь', '8': 'восемь', '9': 'девять'}
 
-with open('lab2_input.txt', 'r', encoding='utf-8') as f:
+with open('2lab_input.txt', 'r', encoding='utf-8') as f:
     text = f.read()
 
 numbers = re.findall(r'\b\d+\.\d{1,7}\b', text)
