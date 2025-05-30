@@ -1,7 +1,7 @@
 DIGITS = {'0': 'ноль', '1': 'один', '2': 'два', '3': 'три', '4': 'четыре', 
           '5': 'пять', '6': 'шесть', '7': 'семь', '8': 'восемь', '9': 'девять'}
 
-with open('input.txt', 'r', encoding='utf-8') as f:
+with open('1lab_input.txt', 'r', encoding='utf-8') as f:
     text = f.read().split()
     
 first_num_found = False
